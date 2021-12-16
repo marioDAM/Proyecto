@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb33be20-5aee-4ea2-ab9b-bff10cce61e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6587862a-befd-4a06-8df2-1b80a8eec770.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6587862a-befd-4a06-8df2-1b80a8eec770.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/proyectos.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db/proyectos.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daoSearch/DaoBusquedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoSearch/DaoBusquedas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daoSearchService/DaoBusquedaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/AsignacionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/AsignacionDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidad/Commits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidad/Commits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidad/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidad/Departamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidad/Issues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidad/Issues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidad/Programador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidad/Programador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidad/Proyecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidad/Proyecto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/AsignacionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AsignacionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/DepartamentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/DepartamentoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProgramadoresService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProgramadoresService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/daoSearch/DaoBusquedas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/daoSearch/DaoBusquedas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/daoSearchService/DaoBusquedaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/AsignacionDTO$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/AsignacionDTO$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/AsignacionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/AsignacionDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entidad/Commits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entidad/Commits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entidad/Departamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entidad/Departamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entidad/Issues.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entidad/Issues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entidad/Programador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entidad/Programador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entidad/Proyecto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entidad/Proyecto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/AsignacionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/AsignacionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/DepartamentoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/DepartamentoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ProgramadoresService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ProgramadoresService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +83,7 @@
       <workItem from="1639509850192" duration="7148000" />
       <workItem from="1639589954328" duration="3909000" />
       <workItem from="1639652543569" duration="4793000" />
-      <workItem from="1639678291717" duration="2569000" />
+      <workItem from="1639678291717" duration="2879000" />
     </task>
     <servers />
   </component>

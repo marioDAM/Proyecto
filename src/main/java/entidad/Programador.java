@@ -1,12 +1,10 @@
 package entidad;
 
-
 import lombok.Data;
 
 import java.util.ArrayList;
 
 @Data
-
 public class Programador {
 
     private int idProgramadores;
@@ -52,10 +50,14 @@ public class Programador {
 
     public void insertarCommit(Commits c) {
         this.commits.add(c);
+        System.out.println("Commits del programador :");
+        commits.forEach(System.out::println);
     }
 
     public void insertarIssue(Issues i) {
         this.issues.add(i);
+        System.out.println("Issues del programador :");
+        issues.forEach(System.out::println);
     }
 
     @Override

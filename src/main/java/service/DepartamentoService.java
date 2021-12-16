@@ -40,8 +40,8 @@ public class DepartamentoService {
     public void saveDepartaments() throws SQLException {
         System.out.println("******INSERTANDO UN NUEVO DEPARTAMENTO*************" + "\n");
         DepartamentoDao d = new DepartamentoDaoImpl();
-        Departamento departamento = new Departamento("Juan", 1, 500);
-        Departamento departamento1 = new Departamento("Pedro", 2, 1400);
+        Departamento departamento = new Departamento("Economía", 1, 500);
+        Departamento departamento1 = new Departamento("Programación", 2, 1400);
         try {
             d.insertDepartamento(departamento);
             d.insertDepartamento(departamento1);
@@ -53,12 +53,12 @@ public class DepartamentoService {
     public void deleteDepartamento() {
         System.out.println("**********BORRANDO UN DEPARTAMENTO**********");
         DepartamentoDao d = new DepartamentoDaoImpl();
-        Departamento departamento1 = new Departamento(25);
-        Departamento departamento2 = new Departamento(26);
-        Departamento departamento3 = new Departamento(27);
-        Departamento departamento4 = new Departamento(28);
-        Departamento departamento5 = new Departamento(29);
-        Departamento departamento6 = new Departamento(30);
+        Departamento departamento1 = new Departamento(31);
+        Departamento departamento2 = new Departamento(32);
+        Departamento departamento3 = new Departamento(33);
+        Departamento departamento4 = new Departamento(34);
+        Departamento departamento5 = new Departamento(35);
+        Departamento departamento6 = new Departamento(36);
         try {
             d.deleteDepartamento(departamento1);
             System.out.println(departamento1);

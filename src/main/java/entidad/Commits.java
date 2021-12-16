@@ -31,4 +31,15 @@ public class Commits {
         this.fecha = fecha;
         this.asignacionPI = asignacionPI;
     }
+
+    @Override
+    public String toString() {
+        return "Commits{" +
+                "idCommit=" + idCommit +
+                ", titulo='" + titulo + '\'' +
+                ", texto='" + texto + '\'' +
+                ", fecha='" + fecha + '\'' +
+                ", asignacionPI=" + asignacionPI +
+                '}';
+    }
 }

@@ -6,7 +6,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import entidad.Programador;
 import entidad.Proyecto;
-import lombok.Builder;
 import lombok.Data;
 
 import java.util.Date;

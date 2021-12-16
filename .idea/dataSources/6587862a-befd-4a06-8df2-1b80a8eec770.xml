@@ -1413,7 +1413,7 @@
     <foreign-key id="514" parent="172">
       <ColNames>idProgramadorIssue</ColNames>
       <RefTableName>programadorIssue</RefTableName>
-      <RefColNames>idAsignacion</RefColNames>
+      <RefColNames>idProgramadorIssue</RefColNames>
     </foreign-key>
     <column id="515" parent="173" name="idDepartamento">
       <Position>1</Position>
@@ -1521,7 +1521,7 @@
       <RefTableName>departamento</RefTableName>
       <RefColNames>idDepartamento</RefColNames>
     </foreign-key>
-    <column id="536" parent="176" name="idAsignacion">
+    <column id="536" parent="176" name="idProgramadorIssue">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
@@ -1538,7 +1538,7 @@
       <NotNull>1</NotNull>
     </column>
     <key id="539" parent="176">
-      <ColNames>idAsignacion</ColNames>
+      <ColNames>idProgramadorIssue</ColNames>
       <Primary>1</Primary>
     </key>
     <foreign-key id="540" parent="176">

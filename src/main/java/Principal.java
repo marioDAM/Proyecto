@@ -1,9 +1,10 @@
 
 
-import daoSearchService.DaoBusquedaService;
+import daoSearch.DaoBusquedas;
 import service.*;
 
 import java.sql.SQLException;
+import java.util.Scanner;
 
 public class Principal {
 
@@ -21,24 +22,25 @@ public class Principal {
         IssueService i = new IssueService();
         ProgramadorIssueService pi = new ProgramadorIssueService();
         RepositorioService r = new RepositorioService();
-        DaoBusquedaService dbs = new DaoBusquedaService();
+        DaoBusquedas dbs = new DaoBusquedas();
 
+        Scanner teclado = new Scanner(System.in);
 /**
  * DEPARTAMENTOS
  */
-        //ds.saveDepartaments();
-//        ds.getAllDepartments();
-//        ds.getAllDepartmentsByID();
-        //ds.updateDepartamento();
-        ds.deleteDepartamento();
-//
+       /* ds.saveDepartaments();
+        ds.getAllDepartments();
+        ds.getAllDepartmentsByID();
+        ds.updateDepartamento();
+        ds.deleteDepartamento();*/
+
         /**
          * PROGRAMADOR
          */
 
-        ps.selectAllProgrammers();
+//        ps.selectAllProgrammers();
 //        ps.selectById();
-//        ps.saveProgrammer();
+        ps.saveProgrammer();
 //        ps.updateProgrammer();
 //        ps.deleteProgrammer();
 /**
@@ -54,7 +56,7 @@ public class Principal {
 /**
  * ASIGNACION
  */
-        a.getAllAsignaciones();
+        // a.getAllAsignaciones();
         //a.getAllAsignacionesById();
         //a.saveAsignacion();
         //a.deleteAsignacion();
@@ -72,7 +74,7 @@ public class Principal {
 /**
  * ISSUES
  */
-        i.getAllIssues();
+        //i.getAllIssues();
         //i.getIssueById();
         // i.saveIssue();
         //i.deleteIssue();
@@ -95,10 +97,13 @@ public class Principal {
         // r.saveRepositorio();
         //r.deleteRepositorio();
         //r.updateRepositorio();
-        dbs.busqueda2();
-        System.out.println();
-        dbs.busqueda3();
 
+        System.out.println("Inserte el ID del departamento para buscar sus trabajadores y proyectos");
+        int departamento_id = teclado.nextInt();
+        dbs.mostrarProgramadoresDadoDepartamento(departamento_id);
+        dbs.mostrarProyectosDadoDepartamento(departamento_id);
+        dbs.mostrarIssuesAbiertas();
+        dbs.mostrarProyectosCommitsIssuesDadoProgramador();
 /**
  * JSON
  */

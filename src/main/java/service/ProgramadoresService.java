@@ -2,9 +2,13 @@ package service;
 
 import dao.ProgramadorDao;
 import daoImpl.ProgramadorDaoImpl;
+import entidad.Commits;
+import entidad.Issues;
 import entidad.Programador;
 
 import java.sql.SQLException;
+import java.util.List;
+
 public class ProgramadoresService {
 
     public void selectAllProgrammers() {
@@ -34,18 +38,14 @@ public class ProgramadoresService {
     public void saveProgrammer() {
         System.out.println("******INSERTANDO UN NUEVO PROGRAMADOR*************" + "\n");
         ProgramadorDao p = new ProgramadorDaoImpl();
-
-        Programador programador = new Programador("Pepe", "2021-11-10", "Javascript,Python,PHP", 1250, "123", false, 4);
-        Programador programador1 = new Programador("María", "2021-09-10", "SQL, Java", 1600, "456", true, 4);
-
-        Programador programador2 = new Programador("Luis Suárez", "2020-08-07", "Java,C#", 1360, "789", true, 5);
-        Programador programador3 = new Programador("Messi", "2019-05-03", "Python,SQL", 2000, "123789", false, 5);
+        Commits commit = new Commits("Mantenimineto", "Subiendo a staying area", "2021-16-12", 8);
+        Issues issues = new Issues("Arreglando bug", "Arreglando soporte del sitema", "2009-10-29", false);
+        Programador programador = new Programador("Fernando Torres", "2019-05-06", "Kotlin, PSP, Python", 2300, "456", false, 6);
 
         try {
             p.insertProgrammer(programador);
-            p.insertProgrammer(programador1);
-            p.insertProgrammer(programador2);
-            p.insertProgrammer(programador3);
+            programador.insertarCommit(commit);
+            programador.insertarIssue(issues);
 
         } catch (Exception e) {
             System.err.println("Este programador no concuerda o ya está insertado ");

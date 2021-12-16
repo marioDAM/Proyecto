@@ -37,10 +37,18 @@ public class Issues {
     }
 
 
-
     public void insertarProgramador(Programador p) {
         this.programadores.add(p);
 
+    }
 
+    @Override
+    public String toString() {
+        return "idIssue=" + idIssue +
+                ", titulo='" + titulo + '\'' +
+                ", texto='" + texto + '\'' +
+                ", fecha='" + fecha + '\'' +
+                ", estado=" + estado +
+                '}';
     }
 }

@@ -20,7 +20,6 @@ public class Proyecto implements CrudRespository<Proyecto> {
     private String tecnologias;
     private int repositorio;
 
-
     public Proyecto(int idProyecto, String nombre, int idJefeProyecto, double presupuesto, String fechaInicio, String fechaFin, String tecnologias, int repositorio) {
         this.idProyecto = idProyecto;
         this.nombre = nombre;

@@ -2,10 +2,8 @@ package entidad;
 
 
 import dao.CrudRespository;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -49,11 +47,11 @@ public class Departamento implements CrudRespository<Departamento> {
         this.presupuestoAnual = presupuestoAnual;
     }
 
-    public void insertarProgramador(Programador p){
+    public void insertarProgramador(Programador p) {
         this.programadores.add(p);
     }
 
-    public void insertarProyecto(Proyecto p){
+    public void insertarProyecto(Proyecto p) {
         this.proyectos.add(p);
     }
 

@@ -42,10 +42,10 @@ public class AsignacionService {
     public void saveAsignacion() {
         System.out.println("******INSERTANDO UNA NUEVA ASIGNACION***********" + "\n");
         AsignacionDao a = new AsignacionDaoImpl();
-        Asignacion asignacion = new Asignacion("2-12-2020", 4, 13);
-        Asignacion asignacion2 = new Asignacion("21-12-2010", 5, 12);
-        Asignacion asignacion3 = new Asignacion("3-1-2020", 6, 11);
-        Asignacion asignacion4 = new Asignacion("7-7-2017", 7, 10);
+        Asignacion asignacion = new Asignacion("2-12-2020", 1, 13);
+        Asignacion asignacion2 = new Asignacion("21-12-2010", 1, 12);
+        Asignacion asignacion3 = new Asignacion("3-1-2020", 2, 11);
+        Asignacion asignacion4 = new Asignacion("7-7-2017", 3, 10);
         try {
             a.insertAsignacion(asignacion);
             a.insertAsignacion(asignacion2);

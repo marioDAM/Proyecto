@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb33be20-5aee-4ea2-ab9b-bff10cce61e4" name="Changes" comment="" />
+    <list default="true" id="bb33be20-5aee-4ea2-ab9b-bff10cce61e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/AsignacionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/CommitsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/DepartamentoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/IssuesDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProgramadorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProgramadorIssueDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProyectoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/RepositorioDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/BaseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/DepartamentoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/ProyectoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servicioDTO/BaseServiceDepartamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servicioDTO/BaseServiceProyecto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servicioDTO/DepartamentoServiceDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servicioDTO/ProyectoServicioDTO.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +97,7 @@
       <workItem from="1639509850192" duration="7148000" />
       <workItem from="1639589954328" duration="3909000" />
       <workItem from="1639652543569" duration="4793000" />
-      <workItem from="1639678291717" duration="3200000" />
+      <workItem from="1639678291717" duration="3543000" />
     </task>
     <servers />
   </component>

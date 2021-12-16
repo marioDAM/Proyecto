@@ -1,14 +1,11 @@
 
 
 import database.ConnectionPool;
-import dto.DepartamentoDTO;
-import dto.ProyectoDTO;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.time.Instant;
 import java.util.Optional;
 
 public class BdSqlite {

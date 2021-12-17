@@ -40,7 +40,7 @@ public class Principal {
 
 //        ps.selectAllProgrammers();
 //        ps.selectById();
-        ps.saveProgrammer();
+//        ps.saveProgrammer();
 //        ps.updateProgrammer();
 //        ps.deleteProgrammer();
 /**
@@ -104,6 +104,7 @@ public class Principal {
         dbs.mostrarProyectosDadoDepartamento(departamento_id);
         dbs.mostrarIssuesAbiertas();
         dbs.mostrarProyectosCommitsIssuesDadoProgramador();
+        teclado.close();
 /**
  * JSON
  */

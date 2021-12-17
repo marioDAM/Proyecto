@@ -38,15 +38,10 @@ public class ProgramadoresService {
     public void saveProgrammer() {
         System.out.println("******INSERTANDO UN NUEVO PROGRAMADOR*************" + "\n");
         ProgramadorDao p = new ProgramadorDaoImpl();
-        Commits commit = new Commits("Mantenimineto", "Subiendo a staying area", "2021-16-12", 8);
-        Issues issues = new Issues("Arreglando bug", "Arreglando soporte del sitema", "2009-10-29", false);
-        Programador programador = new Programador("Fernando Torres", "2019-05-06", "Kotlin, PSP, Python", 2300, "456", false, 6);
+        Programador programador = new Programador("Fernando Torres", "2019-05-06", "Kotlin, PSP, Python", 2300, "456", false, 7);
 
         try {
             p.insertProgrammer(programador);
-            programador.insertarCommit(commit);
-            programador.insertarIssue(issues);
-
         } catch (Exception e) {
             System.err.println("Este programador no concuerda o ya está insertado ");
             e.printStackTrace();
@@ -67,12 +62,13 @@ public class ProgramadoresService {
         }
     }
 
-    public void updateProgrammer() {
+    public void updateProgrammer() throws SQLException {
         System.out.println("********ACTUALIAZANDO UN PROGRAMADOR********");
         ProgramadorDao p = new ProgramadorDaoImpl();
-        //Programador programador = new Programador(13, "Messi",6008);
-        //  p.updateProgrammer(programador);
-        // System.out.println(programador);
+        Programador programador = new Programador("Joao Felix", "2021-04-06",
+                "Kotlin, java", 1100.2, "123654", false, 7);
+        p.updateProgrammer(programador);
+        System.out.println(programador);
 
     }
 }

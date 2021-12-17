@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb33be20-5aee-4ea2-ab9b-bff10cce61e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/proyectos.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db/proyectos.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProgramadoresService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProgramadoresService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +87,8 @@
       <workItem from="1639509850192" duration="7148000" />
       <workItem from="1639589954328" duration="3909000" />
       <workItem from="1639652543569" duration="4793000" />
-      <workItem from="1639678291717" duration="4180000" />
+      <workItem from="1639678291717" duration="5331000" />
+      <workItem from="1639733693947" duration="808000" />
     </task>
     <servers />
   </component>
@@ -101,5 +106,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/daoImpl/ProgramadorDaoImpl.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
